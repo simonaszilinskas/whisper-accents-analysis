@@ -3,7 +3,7 @@
 
 A project by Antonin, Gabriel, Lance, Simonas, Wiktor
 
-! [](https://www.xrtoday.com/wp-content/uploads/2022/01/What_Speech_Recognition_Technology_VR.jpg)
+! [photo](https://www.xrtoday.com/wp-content/uploads/2022/01/What_Speech_Recognition_Technology_VR.jpg)
 
 ## Introduction
 
