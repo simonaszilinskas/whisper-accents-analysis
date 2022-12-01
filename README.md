@@ -49,6 +49,9 @@ We have also looked at the biases that may occur in relation to the speaker’s 
 ### Native language
 
 
+We have also tested the performance of Whisper based on the native language of the speaker. For both similarity metrics, its performance improves for both groups of speakers, which was expected. It is also interesting to see that native English speakers have equal performance and even outperformed by around 10 language groups in the tiny and small model while it reached up to 17 in the medium model. It is also worthwhile to note that native English speakers still have a very high performance compared to the vast majority of language groups.
+
+
 ![LanguageGroupLev](data-vizualizations/LanguageGroupLev.png)
 
 ![LanguageGroupJaro](data-vizualizations/LanguageGroupJaro.png)
