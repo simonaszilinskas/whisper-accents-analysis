@@ -84,6 +84,13 @@ We have analyzed our results through regression analysis albeit with several lim
 
 Moreover, the Speech Accent Archive database has a significant number of audio recordings from people with various ages, English proficiency and country of origin; it can therefore be considered as rather comprehensive. However, it is lacking in one specific area: the number of native languages. The database is composed of audio files from individuals with 214 different native languages and, according to most linguists, more than 7,000 languages are spoken daily. This discrepancy is mainly due to the fact that most of these languages are only spoken by a few hundred individuals and are threatened with extinction while others such as English, Mandarin or Spanish have several hundred million daily speakers. Although the Speech Accent Archive also includes native speakers of “rare” languages like the Yupik language which is spoken by a little bit more than a thousand people in the Alaska peninsula, it is mainly comprised of the most spoken languages, and understandably so as it would be incredibly difficult to find native speakers of every language, especially when the groups speaking these “rare” languages are leaving in very secluded areas. Nevertheless, regarding our search for possible biases in Whisper’s speech recognition, the fact that we could not include such data in our study necessarily leads to skewed results since it is clear that the minorities which still rely on these “rare” languages daily are likely to face prejudice in many areas of the society. It would have been interesting to see if Whisper is perpetuating those biases.
 
+## Conclusion and Recommendation
+
+Whisper like several ARS algorithms tend to perform some biases with regards to certain groups of population. Our analysis has demonstrated that the algorithm works equally well regardless of the age of the speaker; however, the number of years that a speaker has been exposed to the English language does have an impact. There is also no evidence of gender bias and it is interesting to note that some language groups perform equally well or even better than English native speakers. As expected, larger models of Whisper generally perform better for all language groups.
+
+For future research, it would also be insightful to test the large model, provided the availability of a hardware capable running it, as well as to have a more balanced and equal dataset wherein all languages are equally represented. In addition, it would also be interesting to be able to test its performance on people encountering speech difficulties, on infants and other social minorities relevant to our constantly evolving society.
+
+
 
 ## References
 
