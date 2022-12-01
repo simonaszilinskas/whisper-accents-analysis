@@ -11,7 +11,7 @@ In our daily lives, we are progressively being surrounded by smart devices that 
 
 In the short term, due to the dominance of the most spoken languages (English, Mandarin, Spanish, etc.), the speech recognition models are also focused on these languages. Less popular language native speakers thus have to leverage the same interface in their non-native languages and hence the question of accent understanding is crucial.
 
-In 2022 Open AI, the artificial intelligence research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc, have released Whisper - an open source neural net, that according to its creators “approaches human level robustness and accuracy on English speech recognition”. Trained on 680,000 hours of voice recordings from the web, Whisper claims to be game-changing in terms of dealing with accents. 
+In 2022 Open AI, the artificial intelligence research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc, have released [Whisper](https://openai.com/blog/whisper/) - an open source neural net, that according to its creators “approaches human level robustness and accuracy on English speech recognition”. Trained on 680,000 hours of voice recordings from the web, Whisper claims to be game-changing in terms of dealing with accents. 
 
 ## Literature Review
 
@@ -20,13 +20,13 @@ Automatic Speech Recognition (ARS) has been a subject of research by many resear
 
 ## Methodology
 
-![Methodology]9data-vizualizations/Methodology.png)
+![Methodology](data-vizualizations/Methodology.png)
 
 For the purpose of our research in the field of biases in AI, we wanted to put Whisper’s performance with different accents to the test. This allowed us to analyze whether Whisper’s chosen method of model training is a step in the right direction for creating a robust bias-free automatic speech recognition algorithm. 
 
 Leveraging the fact that Whisper has different levels of models: tiny, base, small, medium and large, which are different in their size and speed, we wanted to see how each of them performs with different accents. 
 
-As our accent library, we used audio recordings for The Speech Accent Archive, a database of audio recordings of individuals having different native languages reading the same identical text which contains almost every English consonant and vowel sounds: 
+As our accent library, we used audio recordings for [The Speech Accent Archive](https://accent.gmu.edu), a database of audio recordings of individuals having different native languages reading the same identical text which contains almost every English consonant and vowel sounds: 
 
 ```http
 “Please call Stella. Ask her to bring these things with her from the store:  Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.  We also need a small plastic snake and a big toy frog for the kids.  She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.”
