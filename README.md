@@ -90,6 +90,8 @@ Whisper like several ARS algorithms tend to perform some biases with regards to 
 
 For future research, it would also be insightful to test the large model, provided the availability of a hardware capable running it, as well as to have a more balanced and equal dataset wherein all languages are equally represented. In addition, it would also be interesting to be able to test its performance on people encountering speech difficulties, on infants and other social minorities relevant to our constantly evolving society.
 
+## Goggle Colab Notebook
+
 
 
 ## References
