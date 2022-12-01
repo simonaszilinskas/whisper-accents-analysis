@@ -20,6 +20,8 @@ Automatic Speech Recognition (ARS) has been a subject of research by many resear
 
 ## Methodology
 
+![Methodology]9data-vizualizations/Methodology.png)
+
 For the purpose of our research in the field of biases in AI, we wanted to put Whisper’s performance with different accents to the test. This allowed us to analyze whether Whisper’s chosen method of model training is a step in the right direction for creating a robust bias-free automatic speech recognition algorithm. 
 
 Leveraging the fact that Whisper has different levels of models: tiny, base, small, medium and large, which are different in their size and speed, we wanted to see how each of them performs with different accents. 
@@ -47,12 +49,25 @@ The first observation that comes to mind regarding the median similarity scores 
 
 We have also looked into possible biases that could arise from the gender of the speaker. Our results have shown that Whisper does not comport any bias based on the gender of the speaker as we can see that for all three models, the two similarity metrics are almost identical and the differences are not significant. 
 
+![Gender](data-vizualizations/Gender.png)
+
 ### Age, Onset Age in English & Number Years of Learning English
 
 We have also looked at the biases that may occur in relation to the speaker’s age and the length of time he or she has been learning English. There seems to be no correlation between the age of the speaker and to both similarity metrics. On the other hand, there is a positive correlation between age onset and the Jaro-Winker distance while it has a negative correlation with the Levenshtein distance, while it is the opposite in relation to the number of years a person has been learning English. The interpretation remains the same, that the earlier a person starts to speak or learn English or the longer it speaks it, the more accurate Whisper is able to transcribe their speech into text.
 
-### Native language
+![agejaro](data-vizualizations/agejaro.png)
 
+![agelev](data-vizualizations/agelev.png)
+
+![onsetjaro](data-vizualizations/onsetjaro.png)
+
+![onsetlev](data-vizualizations/onsetlev.png)
+
+![yearsjaro](data-vizualizations/yearsjaro.png)
+
+![yearslev](data-vizualizations/yearslev.png)
+
+### Native language
 
 We have also tested the performance of Whisper based on the native language of the speaker. For both similarity metrics, its performance improves for both groups of speakers, which was expected. It is also interesting to see that native English speakers have equal performance and even outperformed by around 10 language groups in the tiny and small model while it reached up to 17 in the medium model. It is also worthwhile to note that native English speakers still have a very high performance compared to the vast majority of language groups.
 
