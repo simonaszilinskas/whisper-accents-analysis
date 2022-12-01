@@ -3,6 +3,8 @@
 
 A project by Antonin, Gabriel, Lance, Simonas, Wiktor
 
+! [](https://www.xrtoday.com/wp-content/uploads/2022/01/What_Speech_Recognition_Technology_VR.jpg)
+
 ## Introduction
 
 In our daily lives, we are progressively being surrounded by smart devices that use artificial intelligence, most notably automatic speech recognition, ranging from mobile phones, automatic captioning in video conferencing tools to digital assistants that aim to simplify our lives. Moreover, this technology is continually improving, its uses will undoubtedly expand into different fields like  healthcare and security. Given its omnipresence in the future, a bias arising from it would most likely lead to prejudices towards marginalized groups due to the algorithms used by machines. Hence, it is important to assure that these technologies are free from biases and ones that might emerge should be detected as soon as possible in order to fix them as its inclusivity is primordial in preserving social equality in our societies. 
