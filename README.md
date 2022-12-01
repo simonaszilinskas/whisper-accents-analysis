@@ -48,6 +48,13 @@ We have also looked at the biases that may occur in relation to the speaker’s 
 
 ### Native language
 
+
+![Language Group LD](Language Group LD.png)
+
+![Language Group JD](Language Group JD.png
+
+
+
 ## Limitations 
 
 We have analyzed our results through regression analysis albeit with several limitations. The dataset that we have only provides limited variables explaining the characteristics of each speaker resulting in a poor fit (R^2) of our regression models. The presence of more explanatory variables would probably increase the fit of the model since several variables such as the level of education, socio-professional status, exposure to the English language and other variables would improve the model and eliminate the problem of omitted variable bias.
