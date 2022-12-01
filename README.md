@@ -55,17 +55,17 @@ We have also looked into possible biases that could arise from the gender of the
 
 We have also looked at the biases that may occur in relation to the speaker’s age and the length of time he or she has been learning English. There seems to be no correlation between the age of the speaker and to both similarity metrics. On the other hand, there is a positive correlation between age onset and the Jaro-Winker distance while it has a negative correlation with the Levenshtein distance, while it is the opposite in relation to the number of years a person has been learning English. The interpretation remains the same, that the earlier a person starts to speak or learn English or the longer it speaks it, the more accurate Whisper is able to transcribe their speech into text.
 
-![agejaro](data-vizualizations/agejaro.png)
+![age_jar](data-vizualizations/age_jar.png)
 
-![agelev](data-vizualizations/agelev.png)
+![age_lev](data-vizualizations/age_lev.png)
 
-![onsetjaro](data-vizualizations/onsetjaro.png)
+![onset_jar](data-vizualizations/onset_jar.png)
 
-![onsetlev](data-vizualizations/onsetlev.png)
+![onset_lev](data-vizualizations/onset_lev.png)
 
-![yearsjaro](data-vizualizations/yearsjaro.png)
+![years_jar](data-vizualizations/year_jar.png)
 
-![yearslev](data-vizualizations/yearslev.png)
+![years_lev](data-vizualizations/year_lev.png)
 
 ### Native language
 
