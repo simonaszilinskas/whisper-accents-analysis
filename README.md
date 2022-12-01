@@ -34,6 +34,8 @@ In order to properly analyze these similarity scores, we have done some regressi
 
 The first observation that comes to mind regarding the median similarity scores is that for both Jaro-Winker and Levenshtein distances, the tiny model has poorer performance than the small and medium ones. It is also interesting to note that the difference is more pronounced for the former metric. This result was expected as the tiny model can transcribe a file 16 times faster than the medium model at the expense of the accuracy of said transcription.
 
+![Median similarity (Jaro-Winkler distance)](https://github.com/simonaszilinskas/whisper-accents-analysis/blob/main/data-vizualizations/median-similarities/Median%20similarity%20score%20by%20model%20size%20(Lev)%20(1).png?raw=true)
+
 ### Gender
 
 We have also looked into possible biases that could arise from the gender of the speaker. Our results have shown that Whisper does not comport any bias based on the gender of the speaker as we can see that for all three models, the two similarity metrics are almost identical and the differences are not significant. 
