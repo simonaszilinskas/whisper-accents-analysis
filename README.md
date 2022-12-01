@@ -49,9 +49,9 @@ We have also looked at the biases that may occur in relation to the speaker’s 
 ### Native language
 
 
-![Language Group LD](Language Group LD.png)
+![LanguageGroupLev](LanguageGroupLev.png)
 
-![Language Group JD](Language Group JD.png
+![LanguageGroupJaro](LanguageGroupJaro.png)
 
 
 
