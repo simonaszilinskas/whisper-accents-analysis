@@ -13,6 +13,11 @@ In the short term, due to the dominance of the most spoken languages (English, M
 
 In 2022 Open AI, the artificial intelligence research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc, have released Whisper - an open source neural net, that according to its creators “approaches human level robustness and accuracy on English speech recognition”. Trained on 680,000 hours of voice recordings from the web, Whisper claims to be game-changing in terms of dealing with accents. 
 
+## Literature Review
+
+Automatic Speech Recognition (ARS) has been a subject of research by many researchers where biases on accents has been a key research topic. Tatman (2017) has indicated that ARS has biases against some accents due to the lack of diversity the dataset used to train them. She also found out that it was more accurate for men than for women while it was the opposite in the study of Goldwater et al. (2010) and Sawalha et al. (2013). On the other hand, Gamerin et al. (2021) has found that the accuracy based on gender is minimized as the training corpus becomes equally distributed. Feng et al. (2021) made a study for Dutch and found a bias towards native speakers and differences in regional accents. In a similar study, Cambra, Guillermo et al. (2021) also showed that native English speakers, American accents notably, were a lot more accurate than Asian accents where differences could reach up to 10%, most likely due to unequal representation of accents in the training dataset. 
+
+
 ## Methodology
 
 For the purpose of our research in the field of biases in AI, we wanted to put Whisper’s performance with different accents to the test. This allowed us to analyze whether Whisper’s chosen method of model training is a step in the right direction for creating a robust bias-free automatic speech recognition algorithm. 
@@ -63,3 +68,18 @@ We have also tested the performance of Whisper based on the native language of t
 We have analyzed our results through regression analysis albeit with several limitations. The dataset that we have only provides limited variables explaining the characteristics of each speaker resulting in a poor fit (R^2) of our regression models. The presence of more explanatory variables would probably increase the fit of the model since several variables such as the level of education, socio-professional status, exposure to the English language and other variables would improve the model and eliminate the problem of omitted variable bias.
 
 Moreover, the Speech Accent Archive database has a significant number of audio recordings from people with various ages, English proficiency and country of origin; it can therefore be considered as rather comprehensive. However, it is lacking in one specific area: the number of native languages. The database is composed of audio files from individuals with 214 different native languages and, according to most linguists, more than 7,000 languages are spoken daily. This discrepancy is mainly due to the fact that most of these languages are only spoken by a few hundred individuals and are threatened with extinction while others such as English, Mandarin or Spanish have several hundred million daily speakers. Although the Speech Accent Archive also includes native speakers of “rare” languages like the Yupik language which is spoken by a little bit more than a thousand people in the Alaska peninsula, it is mainly comprised of the most spoken languages, and understandably so as it would be incredibly difficult to find native speakers of every language, especially when the groups speaking these “rare” languages are leaving in very secluded areas. Nevertheless, regarding our search for possible biases in Whisper’s speech recognition, the fact that we could not include such data in our study necessarily leads to skewed results since it is clear that the minorities which still rely on these “rare” languages daily are likely to face prejudice in many areas of the society. It would have been interesting to see if Whisper is perpetuating those biases.
+
+
+## References
+
+Cámbara, G., Peiró-Lilja, A., Farrús, M., & Luque, J. (2021). English Accent Accuracy Analysis in a State-of-the-Art Automatic Speech Recognition System. arXiv preprint arXiv:2105.05041.
+
+Feng, S., Kudina, O., Halpern, B. M., & Scharenborg, O. (2021). Quantifying bias in automatic speech recognition. arXiv preprint arXiv:2103.15122.
+
+Garnerin, M., Rossato, S., & Besacier, L. (2021, August). Investigating the impact of gender representation in asr training data: a case study on librispeech. In 3rd Workshop on Gender Bias in Natural Language Processing (pp. 86-92). Association for Computational Linguistics.
+
+Goldwater, S., Jurafsky, D., & Manning, C. D. (2010). Which words are hard to recognize? Prosodic, lexical, and disfluency factors that increase speech recognition error rates. Speech Communication, 52(3), 181-200.
+
+Sawalha, M., & Abu Shariah, M. (2013). The effects of speakers' gender, age, and region on overall performance of Arabic automatic speech recognition systems using the phonetically rich and balanced Modern Standard Arabic speech corpus. In Proceedings of the 2nd Workshop of Arabic Corpus Linguistics WACL-2. Leeds.
+
+Tatman, R. (2017, April). Gender and dialect bias in YouTube’s automatic captions. In Proceedings of the first ACL workshop on ethics in natural language processing (pp. 53-59).
