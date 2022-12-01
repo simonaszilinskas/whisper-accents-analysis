@@ -49,7 +49,7 @@ The first observation that comes to mind regarding the median similarity scores 
 
 We have also looked into possible biases that could arise from the gender of the speaker. Our results have shown that Whisper does not comport any bias based on the gender of the speaker as we can see that for all three models, the two similarity metrics are almost identical and the differences are not significant. 
 
-![Gender](data-vizualizations/Gender.png)
+![genderjarlev](data-vizualizations/genderjarlev.png)
 
 ### Age, Onset Age in English & Number Years of Learning English
 
