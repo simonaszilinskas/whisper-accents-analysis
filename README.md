@@ -20,7 +20,7 @@ Automatic Speech Recognition (ARS) has been a subject of research by many resear
 
 ## Methodology
 
-![Methodology](data-vizualizations/Methodology.png)
+![Method](data-vizualizations/Method.png)
 
 For the purpose of our research in the field of biases in AI, we wanted to put Whisper’s performance with different accents to the test. This allowed us to analyze whether Whisper’s chosen method of model training is a step in the right direction for creating a robust bias-free automatic speech recognition algorithm. 
 
