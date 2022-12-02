@@ -92,7 +92,7 @@ For future research, it would also be insightful to test the large model, provid
 
 ## Goggle Colab Notebook
 
-
+[![Google Colab](https://drive.google.com/file/d/1woJsBZ_C8raJPLkjy3_cTEDEOb9Z2ETe/view?usp=sharing)](Google Colab Notebook for the project (doesn't include R code))
 
 ## References
 
